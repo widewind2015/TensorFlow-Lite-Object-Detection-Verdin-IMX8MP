@@ -6,5 +6,4 @@ This demo uses iMX8M Plus NPU to accelerate TensorFLow lite.
 
 `root@verdin-imx8mp:~# export XDG_RUNTIME_DIR=/run/user/0`
 
-`root@verdin-imx8mp:~# python3 tf-lite-detection-webcam.py --modeldir /home/root/PyOpenCV --graph lite-model_ssd_mobilenet_v1_1_metadata_2.tflite \
---labels labelmap.txt --resolution 1280x720`
+`root@verdin-imx8mp:~# python3 tf-lite-detection-webcam.py --modeldir /home/root/PyOpenCV --graph lite-model_ssd_mobilenet_v1_1_metadata_2.tflite --labels labelmap.txt --resolution 1280x720`
